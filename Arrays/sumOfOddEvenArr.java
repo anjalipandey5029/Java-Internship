@@ -10,10 +10,8 @@ public class sumOfOddEvenArr {
        int[] arr = new int[5];
        System.out.println("Enter array elements : ");
        for (int i = 0; i < arr.length; i++) {
-
-           arr[i] = sc.nextInt();
-
-         if (arr[i] % 2 == 0) {
+        arr[i] = sc.nextInt();
+        if (arr[i] % 2 == 0) {
             sum +=arr[i];
          }
          else{
